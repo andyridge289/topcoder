@@ -1,5 +1,5 @@
 
-public class PR4 
+public class PR04 
 {
 
 	public static void main(String[] args)
@@ -7,7 +7,7 @@ public class PR4
 		
 	}
 	
-	public PR4()
+	public PR04()
 	{
 		
 	}

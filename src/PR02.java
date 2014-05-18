@@ -1,11 +1,11 @@
-public class PR2 
+public class PR02 
 {
 		public static void main(String[] args)
 		{
-			PR2 pr2 = new PR2();
+			PR02 pr2 = new PR02();
 		}
 	
-		public PR2()
+		public PR02()
 		{
 			int [] tests = new int[]{ 0, 3661, 5436, 86399 };
 			for(int test: tests)

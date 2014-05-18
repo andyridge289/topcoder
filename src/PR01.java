@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 
-public class PR1 
+public class PR01 
 {
 		public static void main(String[] args)
 		{
-			PR1 pr1 = new PR1();
+			PR01 pr1 = new PR01();
 //			BinaryCode bc = pr1.new BinaryCode();
 		}
 		

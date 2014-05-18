@@ -1,12 +1,12 @@
 
-public class PR3 
+public class PR03 
 {
 	public static void main(String[] args)
 	{
-		PR3 pr3 = new PR3();	
+		PR03 pr3 = new PR03();	
 	}
 	
-	public PR3()
+	public PR03()
 	{
 		int[][] tests = new int[][]{
 				{

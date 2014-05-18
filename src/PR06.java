@@ -1,15 +1,15 @@
 import java.util.Collections;
 
 
-public class PR6 
+public class PR06 
 {
 
 	public static void main(String[] args)
 	{
-		PR6 pr6 = new PR6();
+		PR06 pr6 = new PR06();
 	}
 	
-	public PR6()
+	public PR06()
 	{
 		int p = maxPoints(new int[]{ 2, 2, 3, 5, 4});
 		System.out.println(String.format("(%d,%d,%d,%d,%d) = %d", 2, 2, 3, 5, 4, p));

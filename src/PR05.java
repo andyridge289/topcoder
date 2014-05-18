@@ -1,13 +1,13 @@
 
-public class PR5 
+public class PR05 
 {
 
 	public static void main(String[] args)
 	{
-		PR5 pr5 = new PR5();
+		PR05 pr5 = new PR05();
 	}
 	
-	public PR5()
+	public PR05()
 	{
 		long a = countRectanges(3, 3);
 		System.out.println(String.format("%d x %d = %d", 3, 3, a));

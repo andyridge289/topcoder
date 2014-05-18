@@ -1,13 +1,13 @@
 
-public class PR7 
+public class PR07 
 {
 
 	public static void main(String[] args)
 	{
-		PR7 p = new PR7();
+		PR07 p = new PR07();
 	}
 	
-	public PR7()
+	public PR07()
 	{
 		String o = order(5, 3, 2);
 		System.out.println(String.format("[%d,%d,%d] = %s", 5, 3, 2, o));
