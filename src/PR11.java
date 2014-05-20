@@ -42,6 +42,7 @@ public class PR11
 	{
 		int priorLeft = 0;
 		int[] waits = new int[arrival.length];
+		int max = 0;
 		
 		for(int i = 0; i < arrival.length; i++)
 		{
@@ -50,12 +51,10 @@ public class PR11
 			
 			priorLeft = arrival[i] + totalWait;
 			waits[i] = orderWait;
-		}
-		
-		int max = waits[0];
-		for(int i = 1; i < waits.length; i++)
+			
 			if(max < waits[i])
 				max = waits[i];
+		}
 		
 		return max;
 	}
